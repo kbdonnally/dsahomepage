@@ -3,6 +3,9 @@
 body {
 	margin: 0;
 	font-family: "Montserrat", sans-serif;
+	p {
+		line-height: 1.5;
+	}
 }
 
 @import '_scss/landing-page';
