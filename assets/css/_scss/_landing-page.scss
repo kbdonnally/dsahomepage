@@ -1,29 +1,47 @@
 /* Homepage CSS: */
 
 .homepage-wrapper {
-
+	position: relative;
 }
 
 // Landing:
 
 .homepage__landing {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	background: black;
 
 }
 
 .home-landing__text-wrapper {
-
+	display: flex;
+	flex-flow: column nowrap;
+//	align-items: center;
+//	justify-content: center;
+	width: 83.33%;
+	margin: 0 auto;
 }
 
 .home-landing__title {
-
+	margin: 0;
+	padding: 1em 0;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	color: white;
 }
 
 .home-landing__line {
-
+	width: 100%;
+	height: 2px;
+	background-color: white;
 }
 
 .home-landing__subtitle {
-
+	color: white;
 }
 
 // About:
