@@ -1,0 +1,53 @@
+/* About: */
+
+.homepage__about {
+
+}
+
+.homepage-about__title {
+	padding: 0 8.33%;
+}
+
+.homepage-about__text-wrapper {
+	position: relative;
+	display: grid;
+	//width: calc(100%;
+	padding: 0 8.33%;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: "t t i"
+				   		 "t t .";
+}
+
+.homepage-about__text {
+	position: relative;
+	grid-area: t;
+}
+
+.homepage-about__involved {
+	position: relative;
+	grid-area: i;
+	margin-left: 4.167vw;
+	padding: 1em;
+	border: 2px solid black;
+}
+
+.homepage-involved__title {
+
+}
+
+.homepage-involved__list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.homepage-involved__list-item {
+	a {
+		text-decoration: none;
+		color: red;
+		transition: color .3s;
+		&:hover, &:active {
+			color: black;
+		}
+	}
+}
