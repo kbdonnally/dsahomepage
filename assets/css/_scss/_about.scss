@@ -1,11 +1,7 @@
 /* About: */
 
 .homepage__about {
-
-}
-
-.homepage-about__title {
-	padding: 0 8.33%;
+	padding-top: 3rem;
 }
 
 .homepage-about__text-wrapper {
@@ -13,9 +9,30 @@
 	display: grid;
 	//width: calc(100%;
 	padding: 0 8.33%;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-areas: "t t i"
-				   		 "t t .";
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas: "t t t i i"
+				   		 "t t t . .";
+}
+
+.homepage-about__title {
+	position: relative;
+	margin: 0;
+	padding: .25em 0;
+	font-size: 2.5rem;
+//	border-bottom: 4px solid $dsared;
+	&::before {
+		content: '';
+		position: absolute;
+		top: calc(100% - 8px);
+		left: 0;
+		display: block;
+		height: 6px;
+		width: 100%;
+		background-color: $dsared;
+		background-image: linear-gradient(to bottom right, rgba(255,0,0,.1), rgba(255,0,0,.3)), url('../img/red-splatter.jpg');
+		background-size: cover;
+		background-position: bottom left;
+	}
 }
 
 .homepage-about__text {
@@ -32,7 +49,7 @@
 }
 
 .homepage-involved__title {
-
+	font-size: 2.5rem;
 }
 
 .homepage-involved__list {
