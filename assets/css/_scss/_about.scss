@@ -1,11 +1,7 @@
 /* About: */
 
 .homepage__about {
-
-}
-
-.homepage-about__title {
-	padding: 0 8.33%;
+	padding-top: 3rem;
 }
 
 .homepage-about__text-wrapper {
@@ -13,9 +9,31 @@
 	display: grid;
 	//width: calc(100%;
 	padding: 0 8.33%;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-areas: "t t i"
-				   		 "t t .";
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas: "t t t i i"
+				   		 "t t t . .";
+}
+
+.homepage-about__title {
+	position: relative;
+	margin: 0;
+	padding: .25em 0;
+	font-family: "Raleway", sans-serif;
+	font-size: 2.5rem;
+//	border-bottom: 4px solid $dsared;
+	&::before {
+		content: '';
+		position: absolute;
+		top: calc(100% - 8px);
+		left: 0;
+		display: block;
+		height: 6px;
+		width: 100%;
+		background-color: $dsared;
+		background-image: linear-gradient(to bottom right, rgba(255,0,0,.1), rgba(255,0,0,.3)), url('../img/red-splatter.jpg');
+		background-size: cover;
+		background-position: bottom left;
+	}
 }
 
 .homepage-about__text {
@@ -28,11 +46,22 @@
 	grid-area: i;
 	margin-left: 4.167vw;
 	padding: 1em;
+	background-color: white;
 	border: 2px solid black;
+	box-shadow: 4px 4px 0 black;
+	margin-top: 3.5rem;
 }
 
 .homepage-involved__title {
+	margin: 0;
+	padding: .25em 0;
+	padding-top: 0;
+	font-family: "Raleway", sans-serif;
+	font-size: 2.5rem;
+}
 
+.homepage-involved__text {
+	margin-top: .5rem;
 }
 
 .homepage-involved__list {
@@ -42,12 +71,34 @@
 }
 
 .homepage-involved__list-item {
+	position: relative;
+//	padding-left: 1rem;
+	font-family: "Raleway", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+/*	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: .5em;
+		left: 0;// -3px;
+		height: 6px;
+		width: 6px;
+		border-radius: 50%;
+		background-color: $dsared;
+	} */
 	a {
 		text-decoration: none;
-		color: red;
+		color: $dsared;
 		transition: color .3s;
 		&:hover, &:active {
 			color: black;
 		}
 	}
+}
+
+.homepage-involved__logo {
+	height: 0px;
+	display: block;
+	float: right;
 }
