@@ -26,6 +26,12 @@
 	//flex-flow: column nowrap;
 	width: 83.33%;
 	margin: 0 auto;
+	@media screen and (max-width: 900px) {
+		grid-template-areas: 'backdrop'
+							 'line'
+							 'subtitle'
+							 'roses';
+	}
 }
 
 .backdrop {
@@ -78,6 +84,10 @@
 		&:nth-of-type(2) {
 			transform: translate(0, -30px);
 		}
+	}
+	@media screen and (max-width: 900px) {
+		transform: translate(0,0);
+		justify-content: flex-start;
 	}
 }
 
