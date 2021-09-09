@@ -5,6 +5,10 @@ let xIcon 	    = document.querySelector('.nav-close-icon');
 let menuList    = document.querySelector('.nav-content__link-list');
 let width 		= window.innerWidth;
 
+if (width > 1000) {
+	burgerIcon.style.display = "none";
+}
+
 if (width < 1000) {
 	burgerIcon.onclick = () => {
 		burgerIcon.style.display = "none";
