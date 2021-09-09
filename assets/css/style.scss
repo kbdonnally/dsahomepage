@@ -8,8 +8,16 @@ body {
 	}
 }
 
+// vars
 @import '_scss/colors';
-@import '_scss/landing-page';
+
+// nav
 @import '_scss/menu';
-@import '_scss/about';
-@import '_scss/resources';
+
+// homepage
+@import '_scss/_homepage/landing-page';
+@import '_scss/_homepage/about-section';
+@import '_scss/_homepage/resources-section';
+
+// pages
+@import '_scss/_pages/about-page';
