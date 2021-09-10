@@ -95,7 +95,7 @@
 	background-color: white;
 	border: 2px solid black;
 	list-style-type: none;
-	box-shadow: 2px 2px 0 black;
+	box-shadow: 4px 4px 0 black;
 	@media screen and (max-width: 850px) {
 		width: 100%;
 		margin: 1rem 8.33%;
@@ -121,7 +121,7 @@
 	font-family: "Raleway", sans-serif;
 	font-weight: 300;
 	font-style: italic;
-	color: hsl(0, 0%, 60%);
+	color: hsl(0, 0%, 50%);
 }
 
 .about-item__summary {
