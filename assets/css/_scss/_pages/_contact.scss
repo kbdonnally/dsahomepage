@@ -68,7 +68,25 @@
 }
 
 .contact-sm__title {
-
+	position: relative;
+	margin: 0;
+	margin-bottom: .75em;
+	padding: .25em 0;
+	font-family: "Raleway", sans-serif;
+	font-size: 2.5rem;
+	&::before {
+		content: '';
+		position: absolute;
+		top: calc(100% - 8px);
+		left: 0;
+		display: block;
+		height: 6px;
+		width: 100%;
+		background-color: $dsared;
+		background-image: linear-gradient(to bottom right, rgba(255,0,0,.1), rgba(255,0,0,.3)), url('../img/red-splatter.jpg');
+		background-size: cover;
+		background-position: bottom left;
+	}
 }
 
 .contact-sm__content {
@@ -79,18 +97,34 @@
 
 }
 
-.contact-sm__row {
-
+ul.contact-sm__row {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin: .5rem 0;
+	padding-left: 0;
+	list-style-type: none;
 }
 
 .contact-sm__svg {
-
+	padding-right: 1rem;
+	img {
+		height: 32px;
+	}
 }
 
 .contact-sm__type {
-
+	padding-right: 1rem;
+	font-weight: bold;
 }
 
 .contact-sm__user {
-
+	a {
+		text-decoration: none;
+		color: black;
+		transition: color .3s;
+		&:hover, &:focus {
+			color: red;
+		}
+	}
 }
