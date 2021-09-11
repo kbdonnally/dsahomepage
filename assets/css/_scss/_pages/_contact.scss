@@ -1,0 +1,96 @@
+.contact-wrapper {
+	padding: 0 8.33%;
+}
+
+.contact-title-wrapper {
+	padding-top: 72px;
+}
+
+.contact__title {
+	position: relative;
+//	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 8.33%;
+	margin-bottom: .75em;
+	padding: .25em 0;
+	font-family: "Raleway", sans-serif;
+	font-size: 3rem;
+	&::before {
+		content: '';
+		position: absolute;
+		top: calc(100% - 8px);
+		left: 0;
+		display: block;
+		height: 6px;
+		width: 100%;
+		background-color: $dsared;
+		background-image: linear-gradient(to bottom right, rgba(255,0,0,.1), rgba(255,0,0,.3)), url('../img/red-splatter.jpg');
+		background-size: cover;
+		background-position: bottom left;
+	}
+	@media screen and (max-width: 800px) {
+		font-size: 2.5rem;
+	}
+}
+
+.contact__content {
+	position: relative;
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	grid-template-areas: 'text form'
+						 'sm sm';
+	@media screen and (max-width: 768px) {
+		grid-template-columns: 1fr;
+		grid-template-areas: 'text'
+							 'form'
+							 'sm';
+	}
+}
+
+.contact-content__text {
+	grid-area: text;
+}
+
+.contact-content__form {
+	grid-area: form;
+	padding-left: 2rem;
+	@media screen and (max-width: 768px) {
+		padding-left: 0;
+	}
+}
+
+.contact-form__form {
+
+}
+
+.contact-content__sm {
+	grid-area: sm;
+}
+
+.contact-sm__title {
+
+}
+
+.contact-sm__content {
+
+}
+
+.contact-sm__flex-wrapper {
+
+}
+
+.contact-sm__row {
+
+}
+
+.contact-sm__svg {
+
+}
+
+.contact-sm__type {
+
+}
+
+.contact-sm__user {
+
+}
