@@ -57,7 +57,8 @@
 	display: inline-block;
 	padding: 1px 4px;
 	font-weight: bold;
-	color: $dsared;
+	color: white; // $dsared;
+	background-color: $dsared;
 	border: 1px solid red;
 	text-transform: uppercase;
 }
