@@ -2,6 +2,9 @@
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 0 8.33%;
+	@media screen and (max-width: 600px) {
+		padding: 0 4.167%;
+	}
 }
 
 .blog-title-wrapper {
@@ -68,9 +71,10 @@
 	a {
 		text-decoration: none;
 		color: black;
-		transition: color .3s;
+		transition: color .3s, border-bottom .3s;
 		&:hover, &:focus {
 			color: red;
+			border-bottom: 2px solid red;
 		}
 	}
 	@media screen and (max-width: 600px) {
@@ -100,7 +104,12 @@
 }
 
 .blog-entry__preview-wrapper {
+	p {
 
+	}
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
 }
 
 .blog-entry__cta {
@@ -120,8 +129,9 @@
 		color: white;
 		text-decoration: none;
 	}
-	a {
-		
+	@media screen and (max-width: 600px) {
+		margin-top: 1em;
+//		display: none;
 	}
 }
 
