@@ -90,7 +90,7 @@
 }
 
 .contact-sm__content {
-
+	margin-bottom: 3rem;
 }
 
 .contact-sm__flex-wrapper {
@@ -114,6 +114,7 @@ ul.contact-sm__row {
 }
 
 .contact-sm__type {
+	width: 6rem;
 	padding-right: 1rem;
 	font-weight: bold;
 }
@@ -121,10 +122,12 @@ ul.contact-sm__row {
 .contact-sm__user {
 	a {
 		text-decoration: none;
-		color: black;
-		transition: color .3s;
+		color: $dsared;
+		border-bottom: 1px solid $dsared;
+		transition: color .3s, border-bottom .3s;
 		&:hover, &:focus {
-			color: red;
+			color: black;
+			border-bottom: 1px solid black;
 		}
 	}
 }
