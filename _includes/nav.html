@@ -6,13 +6,13 @@
     <div class="nav-hamburger-icon"><img src="{{ 'assets/img/svg/hamburger-icon.svg' | relative_url }}" alt="hamburger icon"></div>
     <div class="nav-close-icon nav-content--hide"><img src="{{ 'assets/img/svg/x.svg' | relative_url }}" alt="hamburger icon"></div>
     <ul class="nav-content__link-list">
-      <li class="nav-list__link"><a href="{{ baseurl }}/about">About</a></li>
-      <li class="nav-list__link"><a href="/projects">Campaigns</a></li>
-      <li class="nav-list__link"><a href="/blog">Blog</a></li>
-      <li class="nav-list__link"><a href="/resources">Resources</a></li>
-      <li class="nav-list__link"><a href="/contact">Contact</a></li>
+      <li class="nav-list__link"><a href="{{ '/about' | relative_url }}">About</a></li>
+      <li class="nav-list__link"><a href="{{ '/projects' | relative_url }}">Campaigns</a></li>
+      <li class="nav-list__link"><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+      <li class="nav-list__link"><a href="{{ '/resources' | relative_url }} ">Resources</a></li>
+      <li class="nav-list__link"><a href="{{ '/contact' | relative_url }}">Contact</a></li>
       <li class="nav-list__link"><a href="https://www.patreon.com/dsarichmond">Donate</a></li>
-      <li class="nav-list__link"><a href="/get-involved">Get Involved</a></li>
+      <li class="nav-list__link"><a href="{{'/get-involved' | relative_url }}">Get Involved</a></li>
     </ul>
   </div>
 </nav>
