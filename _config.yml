@@ -33,7 +33,7 @@ collections_dir: collections
 
 # 3. assets
 sass:
-  sass_dir: "assets/css/_sass"
+  sass_dir: "assets/css/_scss"
 
 defaults:
   - scope:
