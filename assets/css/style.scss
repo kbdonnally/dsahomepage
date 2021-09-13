@@ -1,3 +1,5 @@
+---
+---
 // Main style file
 
 body {
@@ -9,20 +11,20 @@ body {
 }
 
 // vars
-@import '_scss/colors';
+@import 'colors';
 
 // nav
-@import '_scss/menu';
+@import 'menu';
 
 // homepage
-@import '_scss/_homepage/landing-page';
-@import '_scss/_homepage/about-section';
-@import '_scss/_homepage/resources-section';
+@import '_homepage/landing-page';
+@import '_homepage/about-section';
+@import '_homepage/resources-section';
 
 // pages
-@import '_scss/_pages/about-page';
-@import '_scss/_pages/join';
-@import '_scss/_pages/blog';
-@import '_scss/_pages/resources-page';
-@import '_scss/_pages/contact';
-@import '_scss/_pages/projects';
+@import '_pages/about-page';
+@import '_pages/join';
+@import '_pages/blog';
+@import '_pages/resources-page';
+@import '_pages/contact';
+@import '_pages/projects';
