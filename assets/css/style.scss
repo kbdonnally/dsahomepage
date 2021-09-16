@@ -21,6 +21,9 @@ body {
 @import '_homepage/about-section';
 @import '_homepage/resources-section';
 
+// includes
+@import '_includes/social-media';
+
 // pages
 @import '_pages/about-page';
 @import '_pages/join';
