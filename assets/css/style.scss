@@ -14,7 +14,8 @@ body {
 @import 'colors';
 
 // nav
-@import 'menu';
+@import '_includes/menu';
+@import '_includes/footer';
 
 // homepage
 @import '_homepage/landing-page';
