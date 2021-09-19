@@ -3,6 +3,7 @@ layout: single
 title: RVA Magazine, Retract the October 24 Piece by E. Draim
 categories: [statements]
 date: 2018-10-26
+author: dsa_admin
 ---
 
 Earlier this week, the _New York Times_ [published a report](https://www.nytimes.com/2018/10/21/us/politics/transgender-trump-administration-sex-definition.html?action=click&module=inline&pgtype=Homepage) stating that this Republican presidential administration is set to roll back Obama-era federal protections for transgender people. This development will further threaten the safety and health of transgender people, already one of the most at-risk demographics in this country. As Danica Roem, Delegate of Virginia’s 13th district and the nation’s only transgender state lawmaker [put it](https://www.wusa9.com/article/news/politics/elections/virginias-transgender-lawmaker-blasts-trump-memo-on-gender-definition/65-607734723): 

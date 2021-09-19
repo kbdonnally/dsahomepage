@@ -3,6 +3,7 @@ layout: single
 title: Who’s Afraid of the Working Class? (Pigs Are)
 categories: [uncategorized]
 date: 2018-05-02
+author: dsa_admin
 ---
 
 Anyone who attended yesterday’s May Day celebration was aware of a heavy police presence around the event.

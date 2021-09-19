@@ -3,6 +3,7 @@ layout: single
 title: Communities Over Coliseums!
 categories: [statements]
 date: 2018-12-18
+author: dsa_admin
 ---
 
 The Richmond Democratic Socialists of America is opposed to Mayor Stoney’s proposal for a new Coliseum and redevelopment of the Navy Hill area. The Richmond DSA believes that any commission created by City Council to assess the viability of such a project will reach the conclusion that the project is intended to further enrich elites like Dominion CEO Tom Farrell and to advance the political career of Mayor Stoney. 

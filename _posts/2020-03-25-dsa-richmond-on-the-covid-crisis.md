@@ -3,6 +3,7 @@ layout: single
 title: DSA Richmond on the Covid Crisis
 categories: [statement]
 date: 2020-03-25
+author: Alex Sparrow
 ---
 
 <span style="font-weight: 400;">In this time of the COVID-19 pandemic, DSA Richmond would like to remind everyone to be safe by practicing social distancing and stricter personal hygiene measures. We have all been caught unprepared by this outbreak, and the structure of our society - capitalism - has exacerbated it. We can build the alternative to capitalism now - socialism, a democratic and participatory society in which working people control the wealth they produce. Only a society oriented toward human freedom and well-being, not the profit for a few, can manage a crisis of the scale that we face.</span>
