@@ -31,6 +31,11 @@ collections_dir: collections
 #    output: true
 #    permalink: /:collection/:slug/
 
+collections:
+  resources:
+    output: true
+    permalink: /:collection/:slug/
+
 # 3. assets
 sass:
   sass_dir: "assets/css/_scss"
