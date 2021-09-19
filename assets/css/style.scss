@@ -13,7 +13,7 @@ body {
 // vars
 @import 'colors';
 
-// nav
+// nav includes
 @import '_includes/menu';
 @import '_includes/footer';
 
@@ -24,6 +24,9 @@ body {
 
 // includes
 @import '_includes/social-media';
+
+// layouts
+@import '_layouts/single';
 
 // pages
 @import '_pages/about-page';
