@@ -21,7 +21,7 @@ exclude:
   - vendor
   - questions.md
 
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:day/:title/
 
 collections_dir: collections
 
