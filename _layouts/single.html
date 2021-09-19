@@ -2,6 +2,19 @@
 layout: base
 ---
 
-<h1>{{ page.title }}</h1>
+<main class="single-wrapper">
+	<div class="single__title-wrapper">
+		<div class="single__category">{{ page.categories[0] }}</div>
+		<h1 class="single__title"><a href="{{site.baseurl}}{{ post.url }}">{{ page.title }}</a></h1>
+	</div>
 
-{{ content }}
+	<div class="single__metadata">
+		<div class="single__author"><span>By:</span> <span>{{ page.author }}</span></div>
+		<div class="single__slashes"> // </div>
+		<div class="single__date"><span>Posted:</span> <span>{{ page.date | date: "%B %-d, %Y" }}</span></div>
+	</div>
+
+	<article class="single__content">
+		{{ content }}
+	</article>
+</main>

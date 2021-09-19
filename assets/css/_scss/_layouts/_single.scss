@@ -1,0 +1,85 @@
+.single-wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 72px;
+	padding: 0 8.33%;
+	@media screen and (max-width: 600px) {
+		padding: 0 4.167%;
+	}
+}
+
+.single__title-wrapper {
+	padding-top: 3rem;
+}
+
+.single__category {
+	display: inline-block;
+	padding: 1px 4px;
+	font-weight: bold;
+	color: white; // $dsared;
+	background-color: $dsared;
+	border: 1px solid red;
+	text-transform: uppercase;
+	ul {
+		margin:  0;
+		padding: 0;
+		list-style-type: none;
+		li {
+			display: inline-block; 
+			font-weight: bold; 
+			color: white; 
+			background-color: $dsared; 
+			border: 1px solid red; 
+			text-transform: uppercase;
+			a {
+				display: inline-block;
+				font-weight: bold;
+				color: white;
+				background-color: $dsared;
+				text-transform: uppercase;
+				text-decoration: none;	
+			}
+		}
+	}
+}
+
+.single__title {
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	font-size: 2.25rem;
+	margin: .25em 0;
+	margin-top: .125em;
+	a {
+		text-decoration: none;
+		color: black;
+		transition: color .3s, border-bottom .3s;
+		&:hover, &:focus {
+			color: red;
+			border-bottom: 2px solid red;
+		}
+	}
+	@media screen and (max-width: 600px) {
+		font-size: 1.75rem;
+	}
+}
+
+.single__metadata {
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	font-family: "Inconsolata", monospace;
+	color: $dsared;
+}
+
+.single__author {
+
+}
+
+.single__slashes {
+	padding: 0 .5rem;
+	color: black;
+}
+
+.single__date {
+
+}
