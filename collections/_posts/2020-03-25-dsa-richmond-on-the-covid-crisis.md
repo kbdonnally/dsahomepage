@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-blog
 title: DSA Richmond on the Covid Crisis
 categories: [statement]
 date: 2020-03-25

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-blog
 title: Who’s Afraid of the Working Class? (Pigs Are)
 categories: [uncategorized]
 date: 2018-05-02

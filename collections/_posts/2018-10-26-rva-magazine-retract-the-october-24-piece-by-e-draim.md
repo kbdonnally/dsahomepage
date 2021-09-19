@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-blog
 title: RVA Magazine, Retract the October 24 Piece by E. Draim
 categories: [statements]
 date: 2018-10-26

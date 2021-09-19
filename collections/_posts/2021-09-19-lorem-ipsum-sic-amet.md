@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-blog
 title: Lorem Ipsum Dolor Sic Amet
 categories: [statements]
 date: 2021-08-21

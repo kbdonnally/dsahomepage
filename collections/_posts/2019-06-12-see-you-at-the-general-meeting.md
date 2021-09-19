@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-blog
 title: See You at the General Meeting!
 categories: [uncategorized]
 date: 2019-06-12

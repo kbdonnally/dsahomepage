@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-blog
 title: Communities Over Coliseums!
 categories: [statements]
 date: 2018-12-18
