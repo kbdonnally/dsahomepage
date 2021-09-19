@@ -102,7 +102,7 @@
 .single__content {
 	position: relative;
 	padding: 2rem 0 3rem 0;
-	p:first-of-type {
+	& > p:first-of-type {
 		&::first-letter {
 			float: left;
 			padding-right: 6px;
@@ -177,5 +177,63 @@
 		max-width: 100%;
 		max-height: 500px;
 		margin: 1rem auto;
+	}
+
+	hr {
+		width: 83.33%;
+		height: 1px;
+		border-top: 1px solid $dsared;
+	}
+
+	blockquote {
+		margin: 1em 0;
+		padding: 0 1.5em;
+		border-left: 2px solid $dsared;
+		color: hsl(0, 0%, 50%);
+		p {
+
+		}
+	}
+
+	ul {
+		position: relative;
+		padding-left: 1.75em;
+		line-height: 1.5;
+		list-style-type: none;
+		li {
+			position: relative;
+			&:before {
+				content: '';
+				position: absolute;
+				left: -22px;
+				top: 8px;
+				display: block;
+				height: 6px;
+				width: 6px;
+				background-color: $dsared;
+				border-radius: 50%;
+
+			}	
+		}
+	}
+
+	ol {
+		position: relative;
+		padding-left: 1.75em;
+		counter-reset: my-awesome-counter;
+		line-height: 1.5;
+		li {
+			position: relative;
+			counter-increment: my-awesome-counter;
+			list-style-type: none;
+			&:before {
+				content: counter(my-awesome-counter) ". ";
+				position: absolute;
+				left: -24px;
+				top: 0px;
+				font-weight: bold;
+				color: $dsared;
+			}
+		}
 	}
 }
