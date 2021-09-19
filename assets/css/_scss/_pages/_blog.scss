@@ -61,6 +61,41 @@
 	background-color: $dsared;
 	border: 1px solid red;
 	text-transform: uppercase;
+	ul {
+		margin:  0;
+		padding: 0;
+		list-style-type: none;
+		li {
+			display: inline-block; 
+			font-weight: bold; 
+			color: white; 
+			background-color: $dsared; 
+			border: 1px solid red; 
+			text-transform: uppercase;
+			a {
+				display: inline-block;
+				font-weight: bold;
+				color: white;
+				background-color: $dsared;
+				text-transform: uppercase;
+				text-decoration: none;	
+			}
+		}
+	}
+}
+
+.blog-entry__category ul {
+	margin:  0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.blog-entry__category ul li {
+	display: inline-block; font-weight: bold; color: white; background-color: #EC1F27; border: 1px solid red; text-transform: uppercase;
+}
+
+.blog-entry__category ul li a {
+	
 }
 
 .blog-entry__title {
