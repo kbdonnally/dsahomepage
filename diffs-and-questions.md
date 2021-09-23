@@ -7,3 +7,4 @@ Differences between the Jekyll and Wordpress theme styling.
 ```cs
 url("http://dsarichmond.local/wp-content/uploads/2021/09/red-splatter.jpg")
 ```
+
