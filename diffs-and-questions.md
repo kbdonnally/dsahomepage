@@ -12,7 +12,7 @@ Differences between the Jekyll and Wordpress theme styling.
 url("http://dsarichmond.local/wp-content/uploads/2021/09/red-splatter.jpg")
 ```
 
-
+- Category tag no longer wrapped in `ul li` &mdash; correct this in style.scss
 
 ## Questions
 
