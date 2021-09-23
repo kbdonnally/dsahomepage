@@ -43,6 +43,14 @@
 	background-color: $dsared;
 	border: 1px solid red;
 	text-transform: uppercase;
+	a {
+		display: inline-block;
+		font-weight: bold;
+		color: white;
+		background-color: $dsared;
+		text-transform: uppercase;
+		text-decoration: none;	
+	}
 	ul {
 		margin:  0;
 		padding: 0;
