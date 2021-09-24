@@ -12,10 +12,30 @@ Differences between the Jekyll and Wordpress theme styling.
 url("http://dsarichmond.local/wp-content/uploads/2021/09/red-splatter.jpg")
 ```
 
-- Category tag no longer wrapped in `ul li` &mdash; correct this in style.scss
+- Category tag no longer wrapped in `ul li` &mdash; correct this in style.scss -> **done**
+- Width on blog and other wrappers:
 
-## Questions
+```scss
+// original:
+max-width: 900px;
+margin: 0 auto;
+padding: 0 8.33%;
 
-1. Is it okay to make new forms on the resources page?
+// new:
+max-width: calc(900px + 16.67vw);
+```
+
+
+
+## Questions & Comments
+
+1. Is it okay to make new forms on the resources page? -> **yes**
 2. How does the Minutes/Agenda plugin work?
 3. Add newsletter signup to design
+4. Add hands/rose symbol to footer
+
+5. Style newsletter signups section
+6. Post page for initiatives
+7. Make new forms and embed on pages
+8. Add back splatter URL once finished adjusting CSS
+
