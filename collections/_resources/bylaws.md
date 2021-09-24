@@ -1,6 +1,8 @@
 ---
 title: Bylaws
 layout: single-resources
+excerpt: >-
+ The bylaws of the chapter are the basic governing rules of our organization. Our bylaws establish the rights of the membership, the rules of our chapter meetings, the duties of the officers and the Steering Committee, and other rules. The bylaws can be amended by two-thirds of any meeting of the membership.
 ---
 
 <a href="#I">Article I. Name.</a>

@@ -1,6 +1,8 @@
 ---
 title: Minutes & Agendas
 layout: single-resources
+excerpt: >-
+ View the minutes and agendas of the General and Steering Committee
 ---
 
 <div class="content flex--grow bkg--white padding--100">

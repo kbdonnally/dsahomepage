@@ -1,6 +1,8 @@
 ---
 title: Resources on Meetings
 layout: single-resources
+excerpt: >-
+ View resources related to rules of order, debate, decorum, and procedure used in the business of the Chapter as well as templates for recording meeting minutes and drafting agendas.
 ---
 
 <strong>Debate and procedure</strong>

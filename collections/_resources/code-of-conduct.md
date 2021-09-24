@@ -1,6 +1,8 @@
 ---
 title: Code of Conduct
 layout: single-resources
+excerpt: >-
+ Our Code of Conduct defines behaviors that constitute harassment, abuse, and bullying, and that may be subject to filing a grievance. Grievances are referred to our Harassment and Grievance Officers. If they are unable to mediate conflict or resolve prohibited behaviors, the Steering Committee may issue penalties against the misbehavior.
 ---
 
 <p><i>Adopted (as Amended): January 25, 2018</i>
