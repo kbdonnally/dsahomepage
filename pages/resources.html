@@ -13,26 +13,13 @@ layout: base
 		
 		<main class="resources__content">
 			<ul class="resources__item-list">
+			{% for resource in site.resources %}
 			  <li class="resources__item">
-			    <div class="resources__link--1"><a href="#">DSA Richmond Bylaws</a></div>
-			    <p>The bylaws of the chapter are the basic governing rules of our organization. Our bylaws establish the rights of the membership, the rules of our chapter meetings, the duties of the officers and the Steering Committee, and other rules. The bylaws can be amended by two-thirds of any meeting of the membership.</p>
-			    <div class="resources__link--2"><a href="#">Read bylaws</a></div>
+			    <div class="resources__link--1"><a href="{{ resource.url }}">{{ resource.title }}</a></div>
+			    <p>{{ resource.excerpt }}</p>
+			    <div class="resources__link--2"><a href="{{ resource.url }}">Read {{ resource.title }}</a></div>
 			  </li>
-			  <li class="resources__item">
-			    <div class="resources__link--1"><a href="#">Minutes and Agendas</a></div>
-			    <p>View the minutes and agendas of the General and Steering Committee</p>
-			    <div class="resources__link--2"><a href="#">View records</a></div>
-			  </li>
-			  <li class="resources__item">
-			    <div class="resources__link--1"><a href="#">Code of Conduct</a></div>
-			    <p>Our Code of Conduct defines behaviors that constitute harassment, abuse, and bullying, and that may be subject to filing a grievance. Grievances are referred to our Harassment and Grievance Officers. If they are unable to mediate conflict or resolve prohibited behaviors, the Steering Committee may issue penalties against the misbehavior.</p>
-			    <div class="resources__link--2"><a href="#">View Code of Conduct</a></div>
-			  </li>
-			  <li class="resources__item">
-			    <div class="resources__link--1"><a href="#">Resources on Meetings</a></div>
-			    <p>View resources related to rules of order, debate, decorum, and procedure used in the business of the Chapter as well as templates for recording meeting minutes and drafting agendas.</p>
-			    <div class="resources__link--2"><a href="#">View resources on meetings</a></div>
-			  </li>
+			{% endfor %}
 			  <li class="resources__item">
 			    <div class="resources__link--1"><a href="#">Submit an Item of Business</a></div>
 			    <p>Please use the following form to submit an item of business to be taken up by the Richmond Chapter Steering Committee at a future meeting. Items will be reviewed and approved by the Steering Committee when voting to approve the meeting agenda.</p>
